@@ -241,6 +241,7 @@ $('#MinRow').children().on('click', function () {
     if (yambObj.counter === 0){
       return
     }
+    console.log(keepingDices);
     let countingDices = 0;
     for (let j = 0; j< yambObj.SixKeeps.length; j++){
       if (yambObj.SixKeeps[j] !== 0){
