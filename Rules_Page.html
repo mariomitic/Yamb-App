@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{ background-image: url("images/two-red-dices.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size:cover;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 80%;}
+        body, html {height: 100%;}
+    </style>
+</head>
+
+<body>
+   <h1> Game of Yamb Rules </h1>
+   <b>Column rules:</b><br>
+  1. "Down" column can be entered from top to bottom.<br>
+  2. "Free" column can be entered randomly.<br>
+  3. "Up" column can be entered from the bottom up.<br>
+  4. "Call" column can be entered randomly, each cell must be called after first throw (<b>right click</b>).<br>
+  5. "Hand" column can be entered random only after first throw.<br>
+  <br>
+  <b>Values:</b><br>
+  1. "Three": Three of a kind. (ex. 3,3,3)<br>
+  2. "Straight": Five dices arranged as a scale. (ex. 1,2,3,4,5 or 2,3,4,5,6)<br> 
+  3. "Full": Tree of a kind + one pair. (ex. 4,4,4,3,3)<br>
+  4. "Poker": Four of a kind. (ex. 5,5,5,5)<br>
+  5. "Yamb": Five of a kind. (ex. 6,6,6,6,6)<br>
+  <br>
+  <b>Calculations:</b><br>
+  1. Each column's sum greater than 59pts receives bonus of 30pts.<br>
+  2. Difference between Max and Min multiplies by value of "1".<br>
+  3. "Three" gets bonus of 20pts on top of sum of all dices (ex. 6,6,6 gives 38pts).<br>
+  4. "Straight" won in one throw wins 66pts, second throw 56pts, third throw 46pts.<br>
+  5. "Full" gets bonus of 30pts on top of sum of all dices (ex. 6,6,6,5,5 gives 58pts).<br>
+  6. "Poker" gets bonus of 40pts on top of sum of all dices (ex. 6,6,6,6 gives 64pts).<br>
+  7. "Yamb" gets bonus of 50pts on top of sum of all dices (ex. 6,6,6,6,6 gives 80pts).<br>
+
+
+
+</body>
+
+</html>

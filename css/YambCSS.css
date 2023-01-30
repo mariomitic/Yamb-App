@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(191, 171, 236);
+    text-align: center;
+    pointer-events: none;}
+
+    h1 { color:rgb(97, 10, 10);
+        position: fixed;
+        top: 0%;
+        left: 5%; 
+        background-color: rgb(191, 171, 236);}
+        
+
+.center { margin-left: 1%;
+        margin-top: 6%;
+        pointer-events: all;}
+
+th { color: brown;}
+td {color:blue;}
+td:hover{ background-color: rgb(100, 171, 234);}
+th, td {border: 1px solid green;}
+tr.sum2row, tr.sum1row {background-color: rgb(205, 225, 21);pointer-events: none;}
+th.sum1cell { background-color:  rgb(191, 171, 236);}
+.dices { position: fixed;
+            left: 600px;
+            top: 100px;
+        font-size: xx-large;}
+
+.gameRules{ position: fixed;
+        left: 725px;
+        top: 325px;
+        background-color: rgb(108, 123, 220);
+        pointer-events: all;}
+
+
+
+.dicesTrow { pointer-events: all;}
+.dicesScore { pointer-events: all;}
+.diceTable { table-layout: fixed;}
+button {background-color: rgb(157, 128, 223);
+        text-align: center;
+        border:none;
+        font-size: xx-large;
+        color:blue;
+        
+        }
+
+.button:hover{transition-duration: 0.4s;
+        outline: 10px;
+        background-color: green;
+         }
+.dice1{pointer-events: all;}
+
+.keepCell{pointer-events: none;}
+.clickable{pointer-events: all;}
+.complete{pointer-events: none;}
+
+
+.nextDown{pointer-events: all;}
+.colDown{pointer-events: none;}
+
+.nextUp{pointer-events: all;}
+.colUp{pointer-events: none;}
+
+.calledCell{background-color: rgb(67, 133, 190);
+pointer-events: all;}
+
+.allButCalledBlocked{pointer-events: none;}
+
+.hide{visibility: hidden;}
+
+
+
